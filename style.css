@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header_nav {
+    background-color: #eeeee4;
+    font-family: 'Roboto', sans-serif;
+    border: black;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+} 
+
+.header_nav_logo {
+    width: 75px;
+    height: 75px;
+}
+
+.logo_paila  {
+    width: 100%;
+    height: 100%;
+    margin-left: 25px;
+}
+
+.logo_carrito {
+    width: 70px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.selected{
+    background-color: #abdbe3;
+    font-size: large;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nav_items {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.main {
+    height: 400px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+
+.ul_header {
+    width: 100%;
+    text-align: right;
+}
+
+
+li {
+    display: inline-block;
+    margin: 0px 25px 0px 25px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.hr_divisor {
+    margin: 5px; 
+
+}
+
+.footer {
+    display: flex;
+    height: 190px;
+    background-color: #eeeee4;
+}
+
+.footer_nav {
+    font-family: 'Roboto', sans-serif;
+    border: black;
+    
+    width: 40%;
+    flex-direction: column;
+} 
+
+.footer_media {
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    border: black;
+    flex-direction: column;
+} 
+.footer_cop {
+    font-family: 'Roboto', sans-serif;
+    border: black;
+    background-color: #eeeee4;
+    font-size: small;
+} 
+
+.ul_footer {
+    font-weight: bold;
+    padding: 20px;
+    line-height: 35px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav_items {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.la_paila_1 {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #1e1e1f;
+    align-content: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-top: auto;
+}
+.la_paila_2 {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #1e1e1f;
+    align-content: center;
+    margin-left: auto;
+    margin-top: 15px;
+    gap: 10px;
+}
+.la_paila_3 {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #1e1e1f;
+    align-content: center;
+    margin-left: auto;
+    margin-top: auto;
+    gap: 10px;
+}
+.la_paila_4 {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #1e1e1f;
+    align-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    gap: 10px;
+}
+.imagenes_main {
+    width: 70%;
+    flex-wrap: nowrap;
+    margin: 0px auto 0px auto;
+    padding: 0px 2px 0px 2px;
+} 
+
+span {
+    margin-left: 10px;
+}
+.h1_main{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.h2_main {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.orden_main_2{
+    text-align: center;
+}
+
+.h2_footer {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.pie_footer{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+}
+.orden_main_1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icono {
+    font-size: large;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.footer_media_icono{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.main_nuestra_historia {
+    display: flex;
+}
+
+.main_nuestra_historia_textos{
+    width: 53%;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.main_nuestra_historia_imagenes {
+    padding: 10px;
+}
+
+.la_paila_1_nuestraHistoria {
+    height: 280px;
+    width: 280px;
+    border: 3px solid #1e1e1f;
+}
+.la_paila_2_nuestraHistoria {
+    height: 280px;
+    width: 280px;
+    border: 3px solid #1e1e1f;
+}
+
+.fixed {
+    position: fixed;
+    left: 90%;
+    top: 450px;
+}
+
+.whats_logo {
+    height: 60%;
+    width: 60%;
+    background-color: transparent;
+}
+
+.main_container_contacto {
+    display: flex;
+}
+
+.main_container_contacto_textos{
+    width: 50%;
+    margin: 25px 10px 25px 25px;
+    padding: 25px;
+    line-height: 25px;
+    background-color: red;
+    color: black;
+}
+
+.main_h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+
+}
+
+.main_container_div {
+    display: inline-block;
+}
+
+.logo_telefono {
+   width: 25px;
+   height: 25px;
+   margin-top: 0px;
+}
+
+.main_container_contacto_logo {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 5px;
+    height: 20%;
+
+}
+
+.main_h3 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+.main_container_contacto_mapa {
+    padding: 10px;
+}
+
+/* contenedor de logo y texto */
+
+.main_container_contacto_logo_2 {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 5px;
+    height: 20%;
+}
+
+.logo_correo {
+    width: 25px;
+    height: 25px;
+    margin-top: 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
