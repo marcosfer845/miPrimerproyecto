@@ -225,7 +225,7 @@ span {
     width: 53%;
     padding: 10px;
     line-height: 25px;
-}
+    }
 
 .main_nuestra_historia_imagenes {
     padding: 10px;
@@ -240,6 +240,18 @@ span {
     height: 280px;
     width: 280px;
     border: 3px solid #1e1e1f;
+}
+
+.main_div_p {
+    text-indent: 20px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_nuestra_h2 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fixed {
@@ -260,11 +272,12 @@ span {
 
 .main_container_contacto_textos{
     width: 50%;
-    margin: 25px 10px 25px 25px;
+    margin: 5px 5px 5px 5px;
     padding: 25px;
     line-height: 25px;
-    background-color: red;
+    background-color: #eeeee4;
     color: black;
+    display: block;
 }
 
 .main_h2{
@@ -275,19 +288,19 @@ span {
 }
 
 .main_container_div {
-    display: inline-block;
+    display: block;
 }
 
 .logo_telefono {
    width: 25px;
    height: 25px;
-   margin-top: 0px;
 }
 
 .main_container_contacto_logo {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 25px;
-    margin-left: 5px;
+    margin-left: 15px;
     height: 20%;
 
 }
@@ -298,26 +311,55 @@ span {
     font-size: medium;
 }
 
-.main_container_contacto_mapa {
-    padding: 10px;
-}
 
 /* contenedor de logo y texto */
 
 .main_container_contacto_logo_2 {
-    display: inline-flex;
-    margin-top: 25px;
-    margin-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
     height: 20%;
 }
 
+.main_h3_2 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    
+}
 .logo_correo {
     width: 25px;
     height: 25px;
-    margin-top: 0px;
  }
 
 
+ .main_container_contacto_logo_3 {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 15px;
+    height: 10%;
+ }
+
+ .main_h3_3 {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    
+}
+
+.logo_mapa {
+    width: 70px;
+    height: 70px;
+}
+ 
+.mapa_lapaila {
+    outline: 3px solid #1e1e1f;
+    margin-left: 15%;
+   
+    
+}
 
 
 
